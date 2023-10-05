@@ -12,8 +12,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/802a0b73e1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" text="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -21,7 +20,8 @@
 
         <div class="row w-100 d-flex">
             <!-- w-100 establecerá el ancho al 100%, y d-flex hará que la fila se comporte como un contenedor flexible-->
-            <form class="col-md-12 border border-opacity-10 bg-white rounded">
+            <div class="form-div">
+            <form class="col-md-12 bg-white">
                 <!--Head-------------------------------->
                 <div class="row">
                     <div class="head-form">
@@ -41,11 +41,11 @@
 
                 <div class="row mb-3">
                     <div class="col-5">
-                        <label for="inputPassword4">#Card</label>
+                        <label for="inputPassword4">Card #</label>
                         <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                     </div>
                     <div class="col-3">
-                        <label for="inputPassword4">CVC#</label>
+                        <label for="inputPassword4">CVC #</label>
                         <input type="text" class="form-control" placeholder="Last name">
                     </div>
                     <div class="col-4">
@@ -86,11 +86,11 @@
                 </div>
 
                 <div class="row">
-                    <label for="City">State</label>
+                    <label for="City" >State</label>
                     <div class="col-6 col-tar">
 
-                        <span class="badge bg-secondary">
-                            <div class="form-check  form-check-inline div-span ">
+                        <div class="badge bg-secondary ">
+                            <div class="form-check  form-check-inline div-radio ">
                                 <input class="form-check-input " type="radio" name="inlineRadioOptions"
                                     id="inlineRadio1" value="option1">
                                 <label class="form-check-label" for="inlineRadio1"><i
@@ -114,9 +114,9 @@
                                 <label class="form-check-label" for="inlineRadio3"><i
                                         class="fa-brands fa-cc-amex fa-xl"></i></label>
                             </div>
-                        </span>
+                        </div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-6 mb-4">
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
@@ -132,7 +132,10 @@
 
             </form>
         </div>
+        </div>
     </div>
+    <script src="https://kit.fontawesome.com/802a0b73e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" text="text/css" href="style.css">
 </body>
 
 </html>

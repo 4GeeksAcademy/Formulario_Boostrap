@@ -1,26 +1,34 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    max-width: 1200px;
-    /* Ajusta el valor según tus necesidades */
-    margin: 0 auto;
-    /* Para centrar el contenedor horizontalmente */
-  }
-  
-  
-  .head-form {
-    background-color: rgb(238, 238, 242);
-  }
-  
-  .div-span {
-    margin-top: 7px;
-    /* para bajar los radio buttons de las tarjetas */
-  }
-  
-  i {
-    margin-top: 8px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1200px;
+  /* Ajusta el valor según tus necesidades */
+  margin: 0 auto;
+  /* Para centrar el contenedor horizontalmente */
+}
+
+.form-div {
+  border: solid 1px rgb(220, 220, 222);
+  border-radius: 5px;
+
+}
+
+.head-form {
+  background-color: rgb(238, 238, 242);
+}
+
+.div-radio {
+  margin-top: 7px;
   /* para bajar los radio buttons de las tarjetas */
+}
+
+i {
+  margin-top: 8px;
+}
+
+/* para bajar los radio buttons de las tarjetas */
+textarea {
+  resize: none;
+}
